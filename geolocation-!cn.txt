@@ -64,6 +64,7 @@ full:vsmarketplacebadge.apphb.com
 full:widgets.stripst.com
 full:wrds-www.wharton.upenn.edu
 full:ws.audioscrobbler.com
+domain:659178.xyz
 domain:javdbd.com
 domain:arkoselabs.com
 domain:evergage.com
