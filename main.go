@@ -17,8 +17,8 @@ var (
 	outputPath   = flag.String("outputpath", "./publish", "Output path to the generated files")
 	exportLists  = flag.String("exportlists", "category-ads-all,tld-cn,cn,geolocation-cn,tld-!cn,private,apple,icloud,google,steam", "Lists to be exported in plaintext format, separated by ',' comma")
 	//exportLists  = flag.String("exportlists", "category-ads-all,geolocation-!cn,private,apple,icloud,steam", "Lists to be exported in plaintext format, separated by ',' comma")
-	excludeAttrs = flag.String("excludeattrs", "cn@!cn@ads,geolocation-cn@!cn@ads,geolocation-!cn@cn@ads", "Exclude rules with certain attributes in certain lists, seperated by ',' comma, support multiple attributes in one list. Example: geolocation-!cn@cn@ads,geolocation-cn@!cn")
-	toGFWList    = flag.String("togfwlist", "geolocation-!cn", "List to be exported in GFWList format")
+	excludeAttrs = flag.String("excludeattrs", "cn@!cn@ads", "Exclude rules with certain attributes in certain lists, seperated by ',' comma, support multiple attributes in one list. Example: geolocation-!cn@cn@ads,geolocation-cn@!cn")
+	toGFWList    = flag.String("togfwlist", "List to be exported in GFWList format")
 )
 
 func main() {
